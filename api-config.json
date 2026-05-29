@@ -1,0 +1,7 @@
+{
+  "_comment": "Admin config — app fetches from raw.githubusercontent.com on launch (cache 1h). Edit + commit để push key/model mới tới mọi user app KHÔNG CẦN REBUILD.",
+  "max_studio_key": "tljcltePSDzs_f5MEJqTU6gVMlmwRJWnq4n5XUFpS-U",
+  "max_studio_model": "Veo_3.1-Lite",
+  "updated_at": "2026-05-09",
+  "notes": "Models hợp lệ: Veo_3.1-Lite | Veo_3.1-Fast | Veo_3.1-Quality. End user app sẽ tự fetch file này trong 1h khi mở app."
+}
