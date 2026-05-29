@@ -1,0 +1,8 @@
+{
+  "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe).",
+  "version": "2.14.143",
+  "notes": "First release",
+  "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
+  "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
+  "url": "https://github.com/iceo-tech/vuna-releases/releases/latest"
+}
