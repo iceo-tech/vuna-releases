@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.12",
-  "notes": "Sửa lỗi app đóng đột ngột khi dùng AI phân tích kịch bản tạo video; Sửa lỗi không tạo được video 4/6/10 giây — nay chọn thời lượng chạy đúng ở mọi chế độ (chọn model Omni Flash để đổi thời lượng); Gửi báo lỗi cho đội hỗ trợ ổn định hơn",
+  "version": "2.15.13",
+  "notes": "Sửa lỗi app đóng đột ngột (crash) khi tạo video — nhất là khi xem trước/tải thumbnail & render lại cảnh; Chọn thời lượng 4s/6s nay hoạt động với cả model Lite (Lower Priority)",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
