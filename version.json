@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.14",
-  "notes": "Hết lỗi khi xem trước & sửa prompt video, hiện lại nút Lưu; Hết treo giao diện khi cắt video và tạo video từ ảnh; Sửa lỗi hiển thị cửa sổ trên macOS; Hết lỗi khi ngắt kết nối tài khoản; Đúng thời lượng video cho gói Lite",
+  "version": "2.15.15",
+  "notes": "Giao diện mới gọn gàng, dễ nhìn hơn; Hết lỗi văng app do phông chữ; Hết lỗi khi mở cửa sổ Mở rộng/Sửa video; Báo lỗi dễ hiểu khi ảnh bị Google chặn (vd ảnh có người nổi tiếng)",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
