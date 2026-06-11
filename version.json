@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.16",
-  "notes": "Sửa lỗi treo app khi mở trên macOS phiên bản mới",
+  "version": "2.15.17",
+  "notes": "Sửa lỗi treo app khi nhập/import kịch bản dài; Giao diện mượt hơn, hết giật khi co giãn cửa sổ; Con trỏ chuột gọn gàng thống nhất hơn",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
