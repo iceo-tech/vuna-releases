@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.19",
-  "notes": "Sửa video Review Sản Phẩm bị lệch tiếng với khẩu hình nhân vật; Chọn chất lượng video (Ultra/Nhanh) giờ đúng model, hết tạo nhầm; Thêm tùy chọn model tiết kiệm (Lower Priority) cho Review Sản Phẩm",
+  "version": "2.15.18",
+  "notes": "Không còn bắt nhập lại mã kích hoạt mỗi lần mở app — app tự đăng nhập lại bằng mã đã lưu",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
