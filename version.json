@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.21",
-  "notes": "Sửa lỗi một số máy Mac báo lỗi kết nối/chứng chỉ bảo mật khi mở app; Giảm tình trạng tạo video bị chặn (lỗi hoạt động bất thường)",
+  "version": "2.15.22",
+  "notes": "Sửa video Review Sản Phẩm bị lẫn giọng nam/nữ giữa các cảnh; Nhân vật luôn nhép miệng khớp lời khi chọn giọng Veo gốc (native)",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
