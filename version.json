@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.23",
-  "notes": "Sửa lỗi không tải được video lên Gemini ở chức năng Clone Video (do Google đổi giao diện)",
+  "version": "2.15.24",
+  "notes": "Giảm lọt giọng nam giữa các cảnh ở video Review Sản Phẩm (giọng đồng nhất hơn); Giao diện hiển thị vừa khít hơn trên mọi độ phân giải / cỡ màn hình",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
