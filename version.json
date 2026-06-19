@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.15.25",
-  "notes": "Nhân vật nữ không còn bị lồng nhầm giọng nam; Không tự chuyển sang model tạo video đắt tiền hơn khi model bạn chọn bị từ chối quyền; Thông báo rõ ràng hơn khi tài khoản chưa được cấp quyền dùng model",
+  "version": "2.16.0",
+  "notes": "Phần Review Sản Phẩm: thêm tùy chọn \"Khác\" để tự nhập loại sản phẩm khi niche bạn cần không có trong danh sách",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
