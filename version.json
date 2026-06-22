@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.18.1",
-  "notes": "Sửa lỗi đơ/CPU cao khi mở app trên máy Mac — app mở nhanh hơn hẳn; Sửa lỗi cắt ảnh storyboard bị méo ở khổ dọc",
+  "version": "2.18.2",
+  "notes": "Mở app nhẹ hơn, đỡ tốn CPU trên Mac; Tắt app không còn ngốn RAM; Lời thoại video vừa vặn hơn, không bị đọc vội",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
