@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.18.4",
-  "notes": "Cuộn trang mượt hơn trên Mac (hết lag); Mở app gọn gàng hơn, có màn hình chờ; Thêm hướng dẫn dùng Grok Imagine",
+  "version": "2.18.5",
+  "notes": "Sửa lỗi tạo video Grok bị thiếu giọng đọc; Sửa lỗi ghép video chỉ ra 1 cảnh; Lồng giọng đọc không còn lệch khẩu hình miệng (Veo + Grok)",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
