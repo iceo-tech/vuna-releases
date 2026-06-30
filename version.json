@@ -1,7 +1,7 @@
 {
   "_comment": "App fetch file này lúc khởi động (no-cache) để check update. Sinh tự động bởi scripts/release.sh — KHÔNG sửa tay. url_* trỏ release MỚI NHẤT trên vuna-releases (auto-update tải .zip/.exe). url_mac=arm64, url_mac_intel=Intel x86_64 (app tự chọn theo IS_MAC_INTEL).",
-  "version": "2.18.16",
-  "notes": "Sửa lỗi tạo video Review sản phẩm bị báo lỗi, không lên video; Ảnh storyboard/ảnh mẫu giờ được dùng đúng nên video bám sát sản phẩm hơn",
+  "version": "2.19.0",
+  "notes": "Video review giữ đúng nhân vật & sản phẩm theo ảnh storyboard, không còn bị đổi người khác; Các cảnh nối nhau mượt và liền mạch hơn; Kịch bản mở đầu bằng đặt vấn đề hút người xem hơn; Thêm nút Tự động thực hiện: 1 chạm tự viết kịch bản → tạo storyboard → ra video; Thêm nút Tiếp tục: khi bị tạm chặn, bấm để làm nốt các cảnh còn lại, không phải làm lại từ đầu",
   "url_mac": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac.zip",
   "url_mac_intel": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI_Mac_Intel.zip",
   "url_win": "https://github.com/iceo-tech/vuna-releases/releases/latest/download/VunaAI.exe",
